@@ -17,6 +17,15 @@ read -p "tell me about yourself" details
 echo thanks for your inforamation and check it again ${details}
 
 
+### password hide by -s , when we use -s whcih mean it is slient, 
+#it is used in specilly in
+
+#!/bin/bash
+read -s -p "Enter your password: " password
+echo  #this echo help to break the line
+echo "Password received"
+
+
 
 
 
