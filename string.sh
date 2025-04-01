@@ -28,3 +28,15 @@ executionResult2=${VarSinthia2:19:3}  #output will be "g(take space)k
 echo ${executionResult2}
 
 
+
+#uppercae and lower case
+
+UpLower="Hello good people"
+echo ${UpLower,,}
+echo ${UpLower^^}
+
+#how to replace any variable's data
+
+replace=${UpLower/Hello/HI}
+echo ${replace}
+
