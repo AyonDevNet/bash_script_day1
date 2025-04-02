@@ -33,3 +33,4 @@ elif [[ $number -ge 40 ]]; then
 elif [[ $number -le 39 ]]; then
     echo "You fail the exam"
 fi
+sleep 5 #After 5 sec i will cancel automatically
