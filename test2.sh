@@ -14,7 +14,7 @@ read -p "Enter your ClassID: " ID
 echo  # Create a gap
 
 # Check if any field is empty
-if [[ -z "$name" || -z "$name2" || -z "$ID" ]]; then
+if [[ -z $name || -z $name2 || -z $ID ]]; then
     echo "Error input!!! Fill up your name and ClassID first."
     exit 1  # Stop the script
 fi
