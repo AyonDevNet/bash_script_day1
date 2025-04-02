@@ -4,9 +4,6 @@ if [ $num -gt 5 ]; then
 
 fi
 
-
-
-
 #method-2 if and elif condition
 num2=80
 num3=33
