@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Case is basically, used for reduced use of multiplae nested if-elif condition
+
+
 echo "Enter a color:"
 read color
 
@@ -38,6 +41,8 @@ case $result in
         
 esac
 
+
+
 read -p "Choose an option (start/stop/restart): " action
 
 case $action in
@@ -45,4 +50,15 @@ case $action in
     stop) echo "Stopping service..." ;;
     restart) echo "Restarting service..." ;;
     *) echo "Invalid option!" ;;
+esac
+ 
+
+read -p "choice your food" food
+
+case $food in
+
+coffe) echo "you chose regular coffe " ;;
+juice) echo "you choice fruit juice" ;;
+fry) echo "you choice chicken fry" ;;
+*) echo "you put invalid" ;;
 esac
