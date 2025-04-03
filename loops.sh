@@ -28,11 +28,38 @@ done
 
 
 #mthod - 4 loop array
+myArrayValue=({1..10})
+lenghtOF=${#myArrayValue[*]}
+for (( m=1;m<lenghtOF;m++))
+do
+echo "the value should be $m"
+done
 
-myArrayss=(1 2 3 4 5 6)
-lengthOF=${#myArrayss[@]}
 
-for (( m=0;m<lengthOF;m++))
-do 
- echo "the number is $m"
-done 
+#method -5(print odd numbers with loops)
+
+arrayOdd=({1..10})
+lenghtOFoDD=${#arrayOdd[*]}
+for(( m=1;m<lenghtOFoDD;m++))
+do
+
+if (( m%2 !=0 ));then
+
+   echo "the odd number is $m"
+fi
+
+done
+
+
+
+#method -6 (print even number)
+
+arrayEven=({1..10})
+lenghtOFeVen=${#arrayEven[*]}
+for(( n=0;n<lenghtOFeVen;n++ ))
+do
+
+if (( n%2 == 0 )); then
+echo "the even number is $n"
+fi
+done
