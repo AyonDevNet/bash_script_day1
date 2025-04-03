@@ -12,3 +12,7 @@ for j in {1..10} # (..) two dots you have to give here becuase more than it i wl
 do 
 echo "the number $j "
 done
+
+for k in $(seq 1 5); do #Seq 1 5 is a command that generates a sequence of numbers from 1 to 5.
+    echo "Count: $k"
+done
