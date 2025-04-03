@@ -49,7 +49,14 @@ echo My name is ${mydata[name1]}
 echo My age is ${mydata[age1]}
 echo I am from ${mydata[city1]}
 
+<<<comment
 
+ (#)marks you should use when you want to find lenght of arrays
+ and when you want to execute just array character then you use
+ it without #
+
+
+comment
 
 
 

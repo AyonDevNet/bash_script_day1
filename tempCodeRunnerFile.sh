@@ -1,3 +1,7 @@
-declaire -A dataBase
-dataBase=([student1]=karim [roll1]=10 [school]=UNITAR)
-echo 10th student name is ${dataBase[student1]}
+myArrayss=(1 2 3 4 5 6)
+lengthOF=${#myArrayss(*)}
+
+for (( m=0;m<lengthOF;m++))
+do 
+ echo "the number is $m"
+done 
