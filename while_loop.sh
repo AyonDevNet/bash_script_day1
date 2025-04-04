@@ -11,7 +11,7 @@ do
       let count++
 done
 
-
+#This script asks for user input and keeps asking until the input is a number.
 
 while true
 do
@@ -24,5 +24,16 @@ do
     fi
 done
 
+##This script asks for user input and keeps asking until the input is a character.
+while true; do
+    read -p "Enter the character: " char
 
+if [[ $char =~ ^[a-zA-z]+$ ]];
+then
+  echo "this is valid"
+  break
+else
+  echo "it is not valid"
+fi
+done
   
