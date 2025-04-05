@@ -36,4 +36,12 @@ else
   echo "it is not valid"
 fi
 done
+
+
+#this is executed the process of the file's data
+
+while read myfile
+do
+  echo "the data is" $myfile
+done < file.docx
   

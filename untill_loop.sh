@@ -23,5 +23,4 @@ count2=10
 until [[ $count2 -eq 1 ]]
 do
   echo "this is number" $count2
-  let $count2 --
 done
