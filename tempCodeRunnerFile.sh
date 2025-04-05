@@ -1,7 +1,6 @@
-myArrayss=(1 2 3 4 5 6)
-lengthOF=${#myArrayss(*)}
-
-for (( m=0;m<lengthOF;m++))
-do 
- echo "the number is $m"
-done 
+while IFS =',' read -p ID Name Age
+do
+   echo "the ID is : $ID"
+   echo "the name is : $Name"
+   echo "the age is : $Age"
+done < test.csv

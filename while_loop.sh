@@ -44,4 +44,23 @@ while read myfile
 do
   echo "the data is" $myfile
 done < file.docx
-  
+
+# this process reead from CSV file
+while IFS=',' read -p ID Name Age
+do
+   echo "The ID is: $ID"
+   echo "The Name is: $Name"
+   echo "The Age is: $Age"
+   echo "---------------------"
+done < "test - Sheet1.csv"
+
+
+#this process using for read csv file and Using tail -n +2 to skip the header:
+
+tail -n +2 "test - Sheet1.csv" | while IFS=',' read -r ID Name Age
+do
+  echo "The ID is: $ID"
+  echo "The Name is: $Name"
+  echo "The Age is: $Age"
+  echo "---------------------"
+done
