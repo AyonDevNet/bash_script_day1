@@ -28,3 +28,15 @@ data_OF_Name "Raju" 20 "Male" "Dhaka" "Student"
 data_OF_Name "Maju" 30 "Male" "Dhaka" "Student"  
 data_OF_Name "Saju" 40 "Male" "Dhaka" "Student"  
 data_OF_Name "jadu" 50 "Male" "Dhaka" "Student"  
+
+
+#how to calculate numbers with function
+
+
+add_Sum_num(){
+
+   result=$(( $1+$2 ))
+   echo $result
+}
+ sum=$(add_Sum_num 5  6)
+ echo $sum
