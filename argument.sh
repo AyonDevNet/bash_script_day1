@@ -20,3 +20,10 @@
     do 
     echo "this is data" $filename
     done
+
+
+
+    echo "Create a user"
+    echo "enter your name" $1
+    shift
+    echo "Description" $@
