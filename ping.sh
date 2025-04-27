@@ -13,5 +13,3 @@ else
 fi
 
 
-NO=$(( $RANDOM%6 + 1 ))
-echo $NO
