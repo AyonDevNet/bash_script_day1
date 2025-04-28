@@ -15,3 +15,9 @@ else
 fi
 
        
+#How to conduct the Automatic command
+
+#Just first of all write , find the date, by using date command, and 2ndly, use the at command by using this , and now give the command what you need to execute.
+
+#We can remove it by using : atrm
+
